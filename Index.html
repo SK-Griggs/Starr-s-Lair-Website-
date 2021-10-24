@@ -7,36 +7,80 @@
     <meta name="description" content= "Book Review webpage for Starr">
     <meta nme="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
-<body>
+<div class="container"> 
     <h1>Starr's Lair of Books</h1>
     <p>"Sleeping on a dragon's hoard with greedy, dragonish thoughts in his heart, he had become a dragon himself."
         ― C.S. Lewis, The Voyage of the Dawn Treader 
         </p>
-    <a href="Index.html">Home</a>
-    <a href="REVIEWER.html">Get to Know the Reviewer</a> 
-    <!--What do I really want to include on this page?
-    A contact me page that displays fore or a mini dancing dragon when someone completes the form
-Links to my Twitter, Instagram and The StoryGraph-->
-    <a href="Reviews.html">Reviews</a> 
-    <!--I want the reviews listed alphabetically aligning vertically. Should the letters be links
-    or should there be a jump button (allows someone to jump back to the top of the screen quickly? 
-    When do I need to worry about this?) -->
-    <a href="Reading Challenges and Goals.html">Reading Challenges and Goals</a>
-    <!-- Do I want to include the previous year's goals or just focus on the current year?-->
-    <a href="TBR Episode.html">TBR Season 01</a> 
-    <!-- I need a navigation bar that is conducive to mobile devices first.  Goal: to prevent 
-    endless scrolling -->
-    <a href="Reader.html">Reader's Corner</a>
-
-
+        <nav>
+<ul>
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="REVIEWER.html">Get to Know the Reviewer</a></li> 
+    <li><a href="Reviews.html">Reviews</a></li>
+    <li><a href="Reading Challenges and Goals.html">Reading Challenges and Goals</a></li>
+    <li><a href="TBR Episode.html">TBR Season 01</a></li>
+    <li> <a href="Reader.html">Reader's Corner</a></li>
+</ul>
+</nav>
+<!--A contact me page that displays fore or a mini dancing dragon when someone completes the form
+        Links to my Twitter, Instagram and The StoryGraph-->
+</div>   
+<div class="container">
     
+    <h2>The Hoard</h2>
+    <div class="row">
+        <div class="col">
+            <img src="IMG/BookCover /Beasts and Beauty .jpeg" alt="Book Cover with The Head of a wolf 
+            about to eat someone with a red cape" title= "Image of Book Cover from Edelweiss" />
+        </div>
+        <div class="col">
+            <img src="IMG/BookCover /Destroyer of Light .jpg" alt= "Book Cover of white space ship floating 
+            in space" title="Book Cover Image comes from Edelweiss" /></div>
+        <div class="col">
+            <img src="IMG/BookCover /Gearbreakers.jpg" alt =" Book Cover of two girls in front the head of a Mech" 
+            title= "Gearbreakers Book Cover from Edelweiss" /></div>
+    </div>
+</div>
+<!--I want these Images to be links to reviews. And I want to set them up as a carousel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG/BookCover /Beasts and Beauty .jpeg" class="d-block w-100"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/BookCover /Destroyer of Light .jpg" class="d-block w-100"img-fluid  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/BookCover /Gearbreakers.jpg" class="d-block w-100"img-fluid alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-
-<h2>The Hoard</h2>
-</p> Things I Would like to do:
-A carousel of Book covers. When Someone clicks on the image it takes them to the review. 
-The Review will have links to The Storygraph for a full summary and buy links to Amazon, Barnes and Noble, 
-and Books a Million. 
-Carousel will consist of the 3 most recent reviews: Rebelwing, Squad and Generation Manifestation
 </html>
