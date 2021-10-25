@@ -6,4 +6,8 @@ h1 {
     color:navy ;
     margin-left: 20px
 }
+
+<!--how to remove the bullet points in ul-->
 ul.ch {list-style-type: none;}
+
+
