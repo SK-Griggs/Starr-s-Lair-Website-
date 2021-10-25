@@ -11,3 +11,12 @@ h1 {
 ul.ch {list-style-type: none;}
 
 
+.flex-container {display: flex;
+}
+.flex-child {
+    flex: 1;
+    border: 3px solid navy;
+}
+.flex-child :first child{
+    margin-right: 20px
+}
