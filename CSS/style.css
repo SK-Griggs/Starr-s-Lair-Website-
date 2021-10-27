@@ -1,6 +1,5 @@
 body {
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);  
-    
 }
 h1 {
     color:navy ;
@@ -18,3 +17,13 @@ ul.ch {list-style: none !important;}
 .flex-child :first child{
     margin-right: 20px
 }
+/*media queries */
+@media (min-width: 768px) and (max-width: 1200px) {
+    body{
+    color: orange;
+    }
+ .col-md{
+     padding: 10px;
+ }   
+}
+    
