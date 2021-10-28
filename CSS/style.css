@@ -17,6 +17,11 @@ ul.ch {list-style: none !important;}
 .flex-child :first child{
     margin-right: 20px
 }
+.imgbook{
+    max-height: 450px;
+    padding-bottom: 5px;
+
+}
 /*media queries */
 @media (min-width: 768px) and (max-width: 1200px) {
     body{
