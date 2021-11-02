@@ -1,3 +1,5 @@
+
+
 body {
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);  
 }
@@ -7,6 +9,8 @@ h1 {
 }
 /*to remove dots from list*/
 ul.ch {list-style: none !important;}
+ol {list-style: none
+text-align:center;}
 
 .flex-container {display: flex;
 }
@@ -16,12 +20,14 @@ ul.ch {list-style: none !important;}
 }
 .flex-child :first child{
     margin-right: 20px
+    flex-shrink: 1;
 }
 .imgbook{
     max-height: 400px;
     padding-bottom: 5px;
 
 }
+
 /*media queries */
 @media (min-width: 768px) and (max-width: 1200px) {
     body{
@@ -31,4 +37,11 @@ ul.ch {list-style: none !important;}
      padding: 10px;
  }   
 }
-    
+
+p { text-align: center; }
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+.footer {text-align: center;}
+
+
