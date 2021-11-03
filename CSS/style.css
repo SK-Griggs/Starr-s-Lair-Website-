@@ -9,8 +9,9 @@ h1 {
 }
 /*to remove dots from list*/
 ul.ch {list-style: none !important;}
-ol {list-style: none
-text-align:center;}
+ol {list-style: none !important;
+text-align: center;}
+
 
 .flex-container {display: flex;
 }
@@ -20,7 +21,6 @@ text-align:center;}
 }
 .flex-child :first child{
     margin-right: 20px
-    flex-shrink: 1;
 }
 .imgbook{
     max-height: 400px;
