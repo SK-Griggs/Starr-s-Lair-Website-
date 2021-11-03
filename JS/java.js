@@ -1,4 +1,4 @@
-<script>
+
 function myFunction() {
   var x = document.getElementById("policy");
   if (x.style.display === "none") {
@@ -7,4 +7,3 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-</script>
