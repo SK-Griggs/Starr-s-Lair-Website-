@@ -13,25 +13,33 @@ ol {list-style: none !important;
 text-align: center;}
 
 
-.flex-container {display: flex;
+.flex-container {display: flex; 
+    flex-wrap: wrap;
+    padding: 5px;
 }
-.flex-child {
+.introduction {
+    margin: 5px;
+}
+/*.flex-child {
     flex: 1;
     border: 3px solid navy;
 }
 .flex-child :first child{
     margin-right: 20px
-}
+}*/
 .imgbook{
     max-height: 400px;
     padding-bottom: 5px;
 
 }
+.imgProject{
+    max-width: 100%
+}
 
 /*media queries */
 @media (min-width: 768px) and (max-width: 1200px) {
     body{
-    color: orange;
+    color: rgb(255, 0, 0);
     }
  .col-md{
      padding: 10px;
