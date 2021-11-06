@@ -20,13 +20,13 @@ text-align: center;}
 .introduction {
     margin: 5px;
 }
-/*.flex-child {
+.flex-child {
     flex: 1;
     border: 3px solid navy;
 }
 .flex-child :first child{
     margin-right: 20px
-}*/
+}
 .imgbook{
     max-height: 400px;
     padding-bottom: 5px;
@@ -50,6 +50,42 @@ p { text-align: center; }
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
-.footer {text-align: center;}
 
+/*---------------
+FOOTER
+----------------*/
+
+
+footer {
+    display:flex;
+    flex-direction: column; 
+    background-color:rgb(76, 0, 255)
+    color: violet
+    padding: 60px 0;
+    text-align: center;
+    align-items: center;
+}
+
+
+footer ul{
+display: flex;
+margin-bottom: 25px;
+font-size: 16px;
+}
+
+footer ul li{
+    margin: 0 8px;
+}
+footer ul li: first-child{
+    margin-left: 0;
+}
+footer ul li: last-child{
+    margin-right: 0;
+}
+footer p{
+    text-transform: uppercase;
+    font-size: 14px
+    color: rgba (255,255,255, .6);
+}
+ 
 
