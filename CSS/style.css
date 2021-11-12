@@ -101,7 +101,7 @@ FOOTER
 footer {
     display:flex;
     flex-direction: column; 
-    background-color:rgb(76, 0, 255);
+    background-color:rgb(69, 59, 116);
     color: violet;
     padding: 60px; 
     align-items: center;
@@ -128,7 +128,7 @@ footer ul li:last-child{
 footer p{
     text-transform: uppercase;
     font-size: 14px;
-    color: rgba (255,255,255, .6);
+    color: violet;
 }
  
 
@@ -136,4 +136,19 @@ footer p{
 
 @media screen and (min-width: 768px) {
     
+}
+
+
+label {
+    padding: 5px;
+    display: flex;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+input,{}
+label {
+    padding: 10px;
+    margin: .4rem 0;
 }
