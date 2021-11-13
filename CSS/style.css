@@ -20,6 +20,11 @@ Photo Overlay Transition
     opacity: 1;
 }
 
+.challenges{
+    display: flex;
+    text-align: center;
+    margin: 7px;
+}
 
 h1 {
     color:navy ;
@@ -70,7 +75,7 @@ text-align: center;}
 /*media queries */
 @media (min-width: 768px) {
     body{
-    color: rgb(255, 0, 0);
+    color: rgb(8, 4, 4);
     }
  .col-md2{
      width: 50%;
@@ -147,8 +152,9 @@ label {
     text-align: center;
 }
 
-input,{}
-label {
+input{
     padding: 10px;
     margin: .4rem 0;
 }
+
+
