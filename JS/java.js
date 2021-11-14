@@ -8,5 +8,23 @@ function myFunction() {
   }
 }
 
+/*validate email*/
 
 
+
+
+function validateEmail(event) {
+  event.preventDefault();
+  let regex = /^\S+@\S+\.\S+$/;
+  let email= document.getElementById("email").value;
+  let string;
+  if (regex.test(email)) {
+    string = "Success! Thank you for your interest in consulting!"
+  }
+  else {
+
+    string = "Sorry Invalid Email";
+  }
+let messageDiv= document.getElementById("messageDiv");
+messageDiv.innerHTML=string;  
+}
