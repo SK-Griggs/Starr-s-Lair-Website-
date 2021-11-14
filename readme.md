@@ -1,2 +1,20 @@
-This is the code for my book review website, called Starr's Book Lair. 
-I have included media queries, flex-grids, a hide/show button and a css animation. 
+Welcome to Starr's Book Lair! This is a boook review website, where science fiction and fantasy books written by women (mostly) are reviewed. You will notice that there are six pages that come together to make the whole site. Not all of the project requirements can be found on the home page. So let me point you in the right direction. 
+First the media queries: 
+If you are starting the page from the mobile size, this is what you should be seeing (top-down):
+Starting with the navigation bar: Home, About Me, Reviews and TBR Episodes should be on top. It wraps and Reader's Corner and Reading Challenges and Goals are on the bottom. 
+"Starr's Book Lair and the Lewis quote should be centered. 
+The Hoard Follows:
+There are three images that are on top of each other (Gearbreakers, Muse Squad and Beasts and Beauty) <When this is live and compltetely finished, each image will be linked to the corresponding review.>
+Scroll down to find the introduction to the TBR episodes.
+This is all wrapped into a flex-container. The header and image makes up the first container. At this size, the image should be small. All of the text should be centered with padding around it. Social media links and copytight information makes up the footer, which is centered and wraps into a paragraph at this size. 
+When you move your screen out to 768px, everything should start unwrapping. This is how the home page should look (bottom-top):
+The footer is starting to spread out, it is now 3 lines (social media links,All Rights Reserved and then the Copyright).  The TBR image has grown. 
+The Hoard 2 images should be on top (Gearbreakers and Muse Squad) with the third image (Beasts and Beauty) still stacked underneath
+The header is still centered. 
+The Navigational bar should be completely unwrapped, with all the pages sitting in a row. 
+The second media query comes into play if the screen is bigger (992px) Everything almost looks the same, only occupying more space. 
+The three book cover images are now sitting in a row beside each other, The TBR image is much bigger. 
+If you look at my Github, you will see that there are plenty of commits. Despite the fact that a computer update broke the connection and me renaming the files (due to a VS Code anomaly) broke my repository files, I was able to get all changes saved, committed and pushed well over 30 times. 
+There are three key CSS features that can be found: the navigation bar (wraps and unwraps itself depending on the size of the screen)
+I have used flex-containers on the home page with the TBR Episodes. 
+There is also a flex-container of the TBR page, with the notable difference of 3 containers (Graphic, Book image and text)
