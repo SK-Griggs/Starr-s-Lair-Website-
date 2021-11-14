@@ -18,3 +18,6 @@ If you look at my Github, you will see that there are plenty of commits. Despite
 There are three key CSS features that can be found: the navigation bar (wraps and unwraps itself depending on the size of the screen)
 I have used flex-containers on the home page with the TBR Episodes. 
 There is also a flex-container of the TBR page, with the notable difference of 3 containers (Graphic, Book image and text)
+The third CSS feature is on the Conductors review page. (Go to Reviews. The Conductors is the only review with a live link.) If you hover (click if you're on mobile) my rating for the book should pop up ("Post Civil War but with magic. I loved Hetty and Benjy together, 5 stars!)  At the bottom of the review there should be a back button that takes you back to the Review Page. 
+If you go to the ABout Me page, you will find where Java Script comes into play. If you click the "Things to keep in mind" button, you can hide or show a list of things that should be considered if you are wishing to contact me about a review.  
+That is all that I have right now for my website. Thank you for reviewing it!
