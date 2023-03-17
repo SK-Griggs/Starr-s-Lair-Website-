@@ -1,4 +1,10 @@
 Welcome to Starr's Book Lair! This is a boook review website, where science fiction and fantasy books written by women (mostly) are reviewed. You will notice that there are six pages that come together to make the whole site. Not all of the project requirements can be found on the home page. So let me point you in the right direction. 
+
+2023 UPDATE FOR WEB DEV 2
+I have added an additional page that has the project for this course on it. For this course, I ended up going with a digital log 
+of books that I have read. 
+
+
 First the media queries: 
 If you are starting the page from the mobile size, this is what you should be seeing (top-down):
 Starting with the navigation bar: Home, About Me, Reviews and TBR Episodes should be on top. It wraps and Reader's Corner and Reading Challenges and Goals are on the bottom. 
