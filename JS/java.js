@@ -29,6 +29,18 @@ let messageDiv= document.getElementById("messageDiv");
 messageDiv.innerHTML=string;  
 }
 
-/*book log: is there a way to enter the date manually*/
+/*book log*/
 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Add a Book';
+  button.className = 'btn-styled';
 
+  button.onclick = function() {
+      // …
+  };
+
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
