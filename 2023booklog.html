@@ -47,6 +47,47 @@
         }
        table.getElementsByTagName("tbody")[0].innerHTML=tBody
       }
+
+      var formData = [];
+var formSubmission = function(title,author, date) {
+    this.title = Title;
+    this.author = Author;
+  
+}
+var spotName = document.getElementById("orderTitle"),
+    spotLocation = document.getElementById("orderAuthor"),
+    spotType = document.getElementById("orderPublishing Date");
+
+var addClick = function() {
+    if (this.value === 'Add a Book') {
+        this.value = "Cancel";
+        document.getElementById('order').style.display = 'block';
+    }
+    else {
+        this.value = 'Add a Book';
+        document.getElementById('order').style.display = 'none';
+    }
+}
+
+document.getElementById("btnAdd1").onclick = addClick;
+
+document.getElementById('order').onsubmit = function(e) {
+    e.preventDefault();
+   var submission = new formSubmission(spotTitle.value, author.value,);
+   formData.push(submission);
+   submission = '';
+    document.getElementById('btnAdd1').value = 'Add a Book';
+    document.getElementById('order').style.display = 'none';
+    this.reset();
+}
+
+var randomValue;
+document.getElementById('btnChoose').onclick = function() {
+    randomValue = formData[Math.floor(Math.random()*formData.length)];
+    document.getElementById('randomTitle').innerHTML = randomValue.title;
+    document.getElementById('randomAuthor').innerHTML = randomValue.author;
+    
+}
 });
     
     </script>
@@ -99,7 +140,21 @@
   </tbody>
 </table>
 
-<div id="container"></div>
+<section>
+<input type="button" id="btnAdd1" value="Add a Book" />
+<div class="form">
+<form id="order" style="display:none;">
+    <input id="orderTitle" type="text" name="Title" placeholder="Title of Book" required="required" autocomplete="on" />
+    <input id="orderAuthor" type="text" name="Author" placeholder="Author" required="required" autocomplete="off" />
+    <input type="submit" value="Add a Book" />
+</form>
+</div>
+</section>
+<div id="randomTitle"></div>
+<div id="randomAuthor"></div>
+
+
+
 
 
 
