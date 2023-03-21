@@ -28,3 +28,7 @@ function validateEmail(event) {
 let messageDiv= document.getElementById("messageDiv");
 messageDiv.innerHTML=string;  
 }
+
+/*book log: is there a way to enter the date manually*/
+
+
