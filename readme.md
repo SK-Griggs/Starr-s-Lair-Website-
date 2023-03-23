@@ -3,7 +3,7 @@ Welcome to Starr's Book Lair! This is a boook review website, where science fict
 2023 UPDATE FOR WEB DEV 2
 I have added an additional page that has the project for this course on it. For this course, I ended up going with a digital log of books that I have read. This was a multi step project. The first thing that I did was created a table that would display all of the books that I have read. This information is set in an array that is stored locally to the code
 
-The next step was to create a button that opens a form that allows books to be added to the table. 
+The next step was to add a dynamic button that would allow new books to be added to the log. 
 
 
 First the media queries: 
