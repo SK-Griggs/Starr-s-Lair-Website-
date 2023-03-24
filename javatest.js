@@ -2,7 +2,6 @@ jQuery(document).ready(function() {
     var item, tile, author, publisher, bookLink, bookImg;
     var outputList = document.getElementById("list-output");
     var bookUrl = "https://www.googleapis.com/books/v1/volumes?q=";
-    var apiKey = "key=AIzaSyBgRf5eP7TN855ydU_h_OXKRQeMiYmb7OU";
     var placeHldr = '<img src="https://via.placeholder.com/150">';
     var searchData;
 
