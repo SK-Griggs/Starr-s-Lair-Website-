@@ -1,9 +1,10 @@
 Welcome to Starr's Book Lair! This is a boook review website, where science fiction and fantasy books written by women (mostly) are reviewed. You will notice that there are six pages that come together to make the whole site. Not all of the project requirements can be found on the home page. So let me point you in the right direction. 
 
 2023 UPDATE FOR WEB DEV 2
-I have added an additional page that has the project for this course on it. For this course, I ended up going with a digital log of books that I have read. This was a multi step project. The first thing that I did was created a table that would display all of the books that I have read. This information is set in an array that is stored locally to the code
+I have added two additional pages for this course's project. I wanted to have a log of all of the books that I have read this year. On this page you will find that I have used an array to make a table. 
 
-The next step was to add a dynamic button that would allow new books to be added to the log. 
+The Second page that I have added was a page to get more information about books. From the book log page, you can go to my review page and read my review, or you can go to the Book Information page to get more information about the book. 
+The Book Information paoge uses the Google Books API to display covers and provide more information 
 
 
 First the media queries: 
