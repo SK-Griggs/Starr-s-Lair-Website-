@@ -1,16 +1,24 @@
-Welcome to Starr's Book Lair! This is a boook review website, where science fiction and fantasy books written by women (mostly) are reviewed. You will notice that there are six pages that come together to make the whole site. Not all of the project requirements can be found on the home page. So let me point you in the right direction. 
+Welcome to Starr's Book Lair! This is a book review website, that focuses mainly on science fiction and fantasy.  You will notice that there are eight pages that come together to make the whole site. Not all of the project requirements can be found on the home page. So let me point you in the right direction. 
 
 *****************2023 UPDATE FOR WEB DEV 2***************************
+Goal>> The Goal for this project was to have a digital record of all of the books that have been read this year.  As any avid readers know, not every book that is read will have a full review. Those that have a full review are linked on the review page. The booklog page contains this table. I also wanted to add a place within the website where you can learn more about the books- as the reviews will contain the actual book summary. If you would like to know more about a book that has a review or that has been read but not reviewed, you can use the book information page to find out more via the search bar.<<
+
 There have been 2 pages added to this website for this course's project: 2023 Book Log and Book Information. 
-The 3 features required for the project will be found here. 
+
+***********************************Features*****************************
 A. Use arrays, objects, sets or maps to store or retrieve information. 
     
 B.Create a function that accepts two or more input parameters and returns a value. 
 
 C. Retrieve data from a third-party API and use it to display something. 
 
+*********************HOW TO RUN THIS PROJECT*****************************
+Everything that you need for this project is contained in the code, as it just static website with some dynamic features. This is a website that I am transitioning to, so all of the reviews are not linked/posted, some of the festures have been fleshed out to the extent of this project and is still in construction
+
 Please feel free to explore the other pages, if you wish!
 ****************End of 2023 Update for WEB DEV 2*********************
+
+
 
 
 First the media queries: 
